@@ -1,0 +1,21 @@
+[workspace]
+members = [
+    "cli",
+    "utils",
+    "crypto",
+    "crypto_blstrs",
+    "network",
+    "protocol",
+    "tss",
+    "vaba",
+    "acss",
+    "apss",
+]
+
+default-members = ["cli"]
+
+[profile.release]
+# debug = true
+lto = true
+
+

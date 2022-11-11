@@ -1,0 +1,17 @@
+[package]
+name = "acss"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crypto = { path = "../crypto" }
+crypto_blstrs = { path = "../crypto_blstrs" }
+network = { path = "../network" }
+protocol = { path = "../protocol" }
+utils = { path = "../utils" }
+serde = { version = "1.0.139", features = ["derive"] }
+anyhow = "1.0.58"
+log = "0.4.17"
+bincode = "1.3.3"
