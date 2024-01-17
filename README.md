@@ -1,6 +1,18 @@
 # APSS
 This is a proof-of-concept implementation for a research paper. It is not intended for production use and has not been audited. Use at your own risk.
 
+When using (parts of) this codebase, please cite
+```
+@misc{cryptoeprint:2022/1586,
+      author = {Christoph U. Günther and Sourav Das and Lefteris Kokoris-Kogias},
+      title = {Practical Asynchronous Proactive Secret Sharing and Key Refresh},
+      howpublished = {Cryptology ePrint Archive, Paper 2022/1586},
+      year = {2022},
+      note = {\url{https://eprint.iacr.org/2022/1586}},
+      url = {https://eprint.iacr.org/2022/1586}
+}
+```
+
 ## Running
 The project is fully written in Rust and should compile using `cargo` on any reasonable machine. If you use `nix`, `shell.nix` and `flake.nix` are provided.
 
